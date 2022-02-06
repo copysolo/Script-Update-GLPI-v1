@@ -4,8 +4,8 @@
 echo 'Nous supprimons tous les fichiers dans /tmp avec \"glpi\" dedans qui peuvent perturber le script.'
 rm -RI /tmp/*glpi*
  
-# Settling of variables for the update
-read -p 'Enter the path of actual GLPI (example: /var/www/html/glpi):' glpi
+# Règlement des variables pour la mise à jour.
+read -p 'Entrez le chemin de actuel GLPI(example: /var/www/html/glpi):' glpi
  
 # Aller dans le répertoire
 #echo 'Aller dans le répertoire'
@@ -21,10 +21,25 @@ mysqldump -u $user -p$passwd $db > /tmp/$db'save'.sql
 echo 'OK'
  
 # Lien de Téléchargement
+#Exemple GLPI -V 9.5.7 ===> wget https://github.com/glpi-project/glpi/releases/download/9.5.7/glpi-9.5.7.tgz
 read -p 'Entrer le lien de téléchargement:' link
-wget $link
+wget $link    
 echo 'Downloaded'
- 
+
+# OCS Inventory Server
+#Exemple OCS Inventory ===> wget https://github.com/OCSInventory-NG/OCSInventory-ocsreports/releases/download/2.9.2/OCSNG_UNIX_SERVER-2.9.2.tar.gz
+read -p 'Entrer le lien de téléchargement:' link
+wget $link    
+echo 'Downloaded'
+
+
+# Plugins Fusion Téléchargement
+#Exemple Fusion ===> wget https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.6/fusioninventory-agent_2.6-1_all.deb
+read -p 'Entrer le lien de téléchargement:' link
+wget $link    
+echo 'Downloaded'
+
+
 # extraction puis suppression d'archives
 echo 'Extraction puis suppression archive'
 tar -zxf glpi*.tgz -C /tmp
