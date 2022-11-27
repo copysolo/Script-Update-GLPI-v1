@@ -85,4 +85,4 @@ find $glpi -type d -exec chmod 750 {} \;
 find $glpi -type f -exec chmod 740 {} \;
 echo 'OK'
  
-echo 'La mise à jour est presque terminée. Connectez-vous maintenant à interface web pour continuer. See U ;) '
+echo 'La mise à jour est presque terminée. Connectez-vous maintenant à interface web pour continuer. See Uu ;) '
