@@ -11,12 +11,8 @@
 - chmod +x " update.sh " 
 - Let's go up 
 
-![Alt text](Images/glpi-db.png)
-
-
-![Alt text](Images/glpi-download.png)
-
-
+![Path GLPI](Images/graphite.png)
+![Dowload Plugin](Images/graphite2.png)
 
 
 <h3 align="left">Connect with me:</h3>
