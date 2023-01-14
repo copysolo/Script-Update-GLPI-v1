@@ -1,29 +1,23 @@
 <h1 align="center">Hi 👋, I'm Amine aka AMsocket</h1>
-<h3 align="center">I am Sys Admin from France</h3>
 
 <p align="left"> <a href="https://twitter.com/solomdq" target="blank"><img src="https://img.shields.io/twitter/follow/solomdq?logo=twitter&style=for-the-badge" alt="solomdq" /></a> </p>
 
-- 🔭 I’m currently working on **Intra**
 
-- 🌱 I’m currently learning **System and network technician**
-
-- 👨‍💻 All of my projects are available at [www.backtothdev.com](www.backtothdev.com)
-
-- 📝 I regularly write articles on [www.backtothdev.com](www.backtothdev.com)
-
-- 📫 How to reach me **dev.achaib@gmx.fr**
-
-- 📄 Know about my experiences [Self-taught, Linux, Windows, Server, Sécurity, Administration](Self-taught, Linux, Windows, Server, Sécurity, Administration)
-
-- ⚡ Fun fact **I think I'm funny**
-
-- 🚦 **Script** **Update GLPI --Version xXx**
+- 🚦 **Script** **Update GLPI --Version 0.9.5**
 
 
 **Install**
 - Git clone 
 - chmod +x " update.sh " 
 - Let's go up 
+
+![Alt text](Images/glpi-db.png)
+
+
+![Alt text](Images/glpi-download.png)
+
+
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
