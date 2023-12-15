@@ -1,7 +1,3 @@
-<h1 align="center">Hi 👋, I'm Amine aka AMsocket</h1>
-
-<p align="left"> <a href="https://twitter.com/solomdq" target="blank"><img src="https://img.shields.io/twitter/follow/solomdq?logo=twitter&style=for-the-badge" alt="solomdq" /></a> </p>
-
 
 - 🚦 **Script** **Update GLPI --Version 0.9.5**
 
